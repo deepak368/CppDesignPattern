@@ -1,0 +1,16 @@
+2025-09-22T21:54:04.453222+05:30 renin-virtual-machine gdm-autologin]: gkr-pam: couldn't unlock the login keyring.
+2025-09-22T21:54:12.859925+05:30 renin-virtual-machine gnome-keyring-daemon[1599]: The Secret Service was already initialized
+2025-09-22T21:54:12.860180+05:30 renin-virtual-machine gnome-keyring-daemon[2025]: discover_other_daemon: 1
+2025-09-22T21:54:12.866541+05:30 renin-virtual-machine gnome-keyring-daemon[2029]: discover_other_daemon: 1
+2025-09-22T21:54:12.868443+05:30 renin-virtual-machine gnome-keyring-daemon[1599]: The PKCS#11 component was already initialized
+2025-09-22T21:54:12.868684+05:30 renin-virtual-machine gnome-keyring-daemon[2034]: discover_other_daemon: 1
+2025-09-22T21:54:25.796970+05:30 renin-virtual-machine polkitd[1015]: Registered Authentication Agent for unix-session:1 (system bus name :1.42 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+2025-09-22T21:54:37.721876+05:30 renin-virtual-machine PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2025-09-22T21:54:37.724174+05:30 renin-virtual-machine PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2025-09-22T21:54:38.651208+05:30 renin-virtual-machine PackageKit: uid 1000 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+2025-09-22T21:54:38.656448+05:30 renin-virtual-machine PackageKit: uid 1000 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+2025-09-22T21:55:00.883825+05:30 renin-virtual-machine dbus-daemon[1006]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2025-09-22T21:55:01.218427+05:30 renin-virtual-machine CRON[4130]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-09-22T21:55:01.234755+05:30 renin-virtual-machine CRON[4130]: pam_unix(cron:session): session closed for user root
+2025-09-22T21:55:27.157820+05:30 renin-virtual-machine pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by renin(uid=1000)
+2025-09-22T21:55:27.158216+05:30 renin-virtual-machine pkexec[4262]: renin: Executing command [USER=root] [TTY=unknown] [CWD=/home/renin] [COMMAND=/usr/lib/update-notifier/package-system-locked]

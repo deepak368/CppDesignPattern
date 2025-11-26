@@ -1,0 +1,2 @@
+[Mon Sep 22 21:53:58.185149 2025] [mpm_prefork:notice] [pid 1471] AH00163: Apache/2.4.58 (Ubuntu) configured -- resuming normal operations
+[Mon Sep 22 21:53:58.185259 2025] [core:notice] [pid 1471] AH00094: Command line: '/usr/sbin/apache2'
